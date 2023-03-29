@@ -166,12 +166,21 @@ li {
 }
 
 .right_container_text {
-    width: 50%;
+    width: 90%;
     font-family: 'Gentium Book Basic';
     font-size: 18px;
-    color: white;
+    color: rgb(9, 0, 0);
     text-align: center;
+    transition: all;
+    transition: 1s;
 }
+
+.right_container_text:hover {
+    font-size: 30px;
+    color: black;
+}
+
+
 
 /* end of section 2 */
 
