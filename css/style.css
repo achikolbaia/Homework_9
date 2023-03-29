@@ -104,7 +104,7 @@ li {
 }
 
 .section_1_images:hover {
-    border-radius: 50%;
+    border-radius: 30px;
     scale: 1.1;
     box-shadow:
         rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
