@@ -1,6 +1,5 @@
 /* start of header  */
 header {
-    border: 2px solid yellow;
     max-width: 1440px;
     width: 100%;
     height: 700px;
@@ -14,7 +13,6 @@ header {
 }
 
 .nav_container {
-    border: 2px solid yellow;
     width: 90%;
     height: 153px;
     display: flex;
@@ -23,13 +21,11 @@ header {
 }
 
 nav {
-    border: 2px solid yellow;
     width: 512px;
     display: flex;
 }
 
 ul {
-    border: 2px solid yellow;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -58,7 +54,6 @@ li {
 
 /* start of section 1  */
 .section_1 {
-    border: 2px solid yellow;
     max-width: 1440px;
     width: 100%;
     height: 610px;
@@ -79,7 +74,6 @@ li {
 }
 
 .images_container {
-    border: 2px solid yellow;
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -94,19 +88,18 @@ li {
 }
 /* end of section 1  */
 .section_2 {
-    border: 2px solid yellow;
     max-width: 1440px;
     width: 100%;
     height: 610px;
     background-color: #0B0A0A;
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around
-
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
 }
 
 .left_container {
-    border: 2px solid yellow;
     width: 45%;
     height: 320px;
 }
@@ -118,7 +111,6 @@ li {
 }
 
 .right_container {
-    border: 2px solid yellow;
     width: 45%;
     height: 320px;
     background-color: #8E8B8B;
@@ -134,5 +126,29 @@ li {
     color: white;
     text-align: center;
 }
+/* end of section 2 */
 
+/* start of footer  */
+footer {
+    max-width: 1440px;
+    width: 100%;
+    height: 220px;
+    background-color: #2A2626;
+    display: flex;
+    justify-content: center;
+}
 
+.footer_content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* end of footer  */
