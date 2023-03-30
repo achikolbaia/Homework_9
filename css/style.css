@@ -1,6 +1,12 @@
 /* start of header  */
-header {
+.main_container {
     max-width: 1440px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+header {
+    max-width: 1;
     width: 100%;
     height: 700px;
     background-image: url('../images/bg.jpg');
